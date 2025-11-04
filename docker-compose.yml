@@ -1,0 +1,9 @@
+services:
+  flask-app:
+    build: ./app
+    container_name: flask-image-proxy
+    restart: unless-stopped
+    ports:
+      - "8080:5173"   # Host:Container
+    env_file:
+      - ./app/.env
