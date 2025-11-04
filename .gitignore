@@ -1,6 +1,3 @@
 # ⛔ ไม่เอาไฟล์ environment
 .env
 .env.*
-
-# ⛔ ไม่เอา dependencies ของ Node.js
-node_modules/
