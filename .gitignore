@@ -1,5 +1,6 @@
 # dependencies
 node_modules/
+package-lock.json
 
 # build outputs
 dist/
@@ -17,3 +18,7 @@ yarn-error.log*
 .vscode/
 .idea/
 .DS_Store
+
+# Ignore Python cache
+__pycache__/
+*/__pycache__/
