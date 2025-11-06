@@ -27,4 +27,4 @@ EXPOSE 5173
 # -----------------------------
 # 6️⃣ รัน FastAPI ด้วย Uvicorn
 # -----------------------------
-CMD ["uvicorn", "main:app", "--port", "5173"]
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "5173"]
